@@ -26,6 +26,9 @@
     .muted{color:var(--muted)}
     .chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
     .chip{background:rgba(139,42,31,.10);color:var(--primary);padding:5px 12px;border-radius:999px;font-size:12px;font-weight:600}
+    .chip.exam{background:rgba(107,66,38,.12);color:var(--accent)}
+    .importance{font-size:20px;letter-spacing:2px;color:var(--primary);margin:4px 0 14px;line-height:1}
+    .importance .star-off{color:var(--border)}
     .block{background:var(--surface2);border:1px solid var(--border);border-radius:12px;padding:18px;margin-bottom:14px}
     ul{margin:6px 0 0;padding-left:22px}
     ul li{margin-bottom:6px}
@@ -66,11 +69,15 @@
         <div class="eyebrow" id="dateText">Loading…</div>
         <h2 class="title-hero" id="titleText">오늘의 작품을 불러오는 중</h2>
         <div class="meta-line" id="metaText"></div>
+        <div class="importance" id="importanceStars" title=""></div>
         <div class="chips">
           <span class="chip" id="categoryChip"></span>
           <span class="chip" id="subgenreChip"></span>
           <span class="chip" id="periodChip"></span>
-          <span class="chip" id="sourceRankChip"></span>
+          <span class="chip exam" id="examSatChip" hidden></span>
+          <span class="chip exam" id="examMockChip" hidden></span>
+          <span class="chip exam" id="ebsChip" hidden></span>
+          <span class="chip" id="latestYearChip" hidden></span>
         </div>
 
         <div class="block"><h3>한 줄 요약</h3><p id="oneLine"></p></div>
@@ -148,16 +155,35 @@
       });
     }
 
+    function renderImportance(imp){
+      const el = byId('importanceStars');
+      if(!imp){ el.innerHTML = ''; el.title = ''; return; }
+      const n = Math.max(0, Math.min(5, Number(imp)));
+      const on = '★'.repeat(n);
+      const off = '<span class="star-off">' + '★'.repeat(5-n) + '</span>';
+      el.innerHTML = on + off;
+      el.title = `중요도 ${n}/5`;
+    }
+    function setChip(id, label, visible){
+      const el = byId(id);
+      el.textContent = label;
+      el.hidden = !visible;
+    }
+
     function render(d){
       currentDate = d.date;
       byId('navDate').textContent = d.date;
       byId('dateText').textContent = `${d.date} · 오늘의 작품 #${d.book_id}`;
       byId('titleText').textContent = `『${d.title}』`;
       byId('metaText').textContent = `${d.author} · ${d.category} · ${d.subgenre || ''} · ${d.period || ''}`.replace(/\s·\s\s·\s/g,' · ');
+      renderImportance(d.importance);
       byId('categoryChip').textContent = d.category || '';
       byId('subgenreChip').textContent = d.subgenre || '';
       byId('periodChip').textContent = d.period || '';
-      byId('sourceRankChip').textContent = `Source Rank ${d.source_rank ?? '-'}`;
+      setChip('examSatChip', `수능 ${d.exam_count_sat ?? 0}회`, (d.exam_count_sat ?? 0) > 0);
+      setChip('examMockChip', `평가원 ${d.exam_count_mock ?? 0}회`, (d.exam_count_mock ?? 0) > 0);
+      setChip('ebsChip', `EBS ${d.ebs_count ?? 0}회`, (d.ebs_count ?? 0) > 0);
+      setChip('latestYearChip', `최근 ${d.latest_year}`, !!d.latest_year);
       byId('oneLine').textContent = d.one_line || '';
       byId('summaryList').innerHTML = (d.summary || []).map(x => `<li>${escapeHtml(x)}</li>`).join('');
       byId('literarySignificance').textContent = d.literary_significance || '';

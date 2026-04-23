@@ -113,6 +113,11 @@ def build_prompt(book: dict, target_date: str, excluded_titles: list[str]) -> st
 - period: {book.get('period', '')}
 - source_rank: {book.get('source_rank', 3)}
 - source_basis: {book.get('source_basis', '')}
+- importance: {book.get('importance', '')}  (1~5)
+- exam_count_sat: {book.get('exam_count_sat', '')}
+- exam_count_mock: {book.get('exam_count_mock', '')}
+- ebs_count: {book.get('ebs_count', '')}
+- latest_year: {book.get('latest_year', '')}
 
 이 앱에 이미 등록된 작품(아래 목록) 안의 텍스트는 next_recommendations 후보에서
 **반드시 제외**하세요. 추천은 아래 목록에 없는 한국 고전이어야 합니다.
@@ -132,6 +137,11 @@ def build_prompt(book: dict, target_date: str, excluded_titles: list[str]) -> st
   "period": "{book.get('period', '')}",
   "source_rank": {book.get('source_rank', 3)},
   "source_basis": "{book.get('source_basis', '')}",
+  "importance": {book.get('importance', 3)},
+  "exam_count_sat": {book.get('exam_count_sat', 0)},
+  "exam_count_mock": {book.get('exam_count_mock', 0)},
+  "ebs_count": {book.get('ebs_count', 0)},
+  "latest_year": "{book.get('latest_year', '')}",
   "reading_mode": "{READING_MODE}",
   "one_line": "한국어 한 문장 요약",
   "summary": ["문장1", "문장2", "문장3", "문장4", "문장5", "문장6"],
@@ -213,6 +223,11 @@ def fallback_report(book: dict, target_date: str, recommendations: list[dict]) -
         "period": book.get("period", ""),
         "source_rank": book.get("source_rank", 3),
         "source_basis": book.get("source_basis", ""),
+        "importance": book.get("importance", 3),
+        "exam_count_sat": book.get("exam_count_sat", 0),
+        "exam_count_mock": book.get("exam_count_mock", 0),
+        "ebs_count": book.get("ebs_count", 0),
+        "latest_year": book.get("latest_year", ""),
         "reading_mode": READING_MODE,
         "one_line": f"{book['author']}의 『{book['title']}』을(를) 오늘의 한국 고전으로 읽는 일일 리포트입니다.",
         "summary": [

@@ -1,0 +1,12 @@
+[
+  {"title":"경설","exam_count_sat":null,"exam_count_mock":null,"ebs_count":null,"latest_year":null,"exam_history":[],"importance":4,"notes":"이규보 설(說). 교과서·EBS 빈출. 평가원 직접 출제 구체 기록 확인 제한."},
+  {"title":"슬견설","exam_count_sat":1,"exam_count_mock":null,"ebs_count":null,"latest_year":null,"exam_history":["수능 본시험 1회(연도 미확인)"],"importance":4,"notes":"이규보 설(說). 중·고 교과서 수록, EBS 반복. '벌레 죽음'에 대한 인식 대비로 평가원 기출 대표 고전수필."},
+  {"title":"이옥설","exam_count_sat":null,"exam_count_mock":null,"ebs_count":null,"latest_year":null,"exam_history":[],"importance":3,"notes":"이규보 설. 집수리 비유. 교과서·EBS 수록. 평가원 직접 출제는 간헐."},
+  {"title":"주옹설","exam_count_sat":null,"exam_count_mock":null,"ebs_count":2,"latest_year":"2020학년도","exam_history":["2014 EBS 수능특강 B","2020 EBS 수능특강"],"importance":3,"notes":"권근 설. EBS 연계 반복 수록. 평가원 직접 출제 기록은 확인되지 않음."},
+  {"title":"차마설","exam_count_sat":null,"exam_count_mock":1,"ebs_count":null,"latest_year":"2018학년도","exam_history":["2018학년도 6월 평가원(주세붕 오륜가와 함께)"],"importance":5,"notes":"이곡 설. 2018 6월 평가원 출제 확인. 고전수필 대표 빈출작."},
+  {"title":"일야구도하기","exam_count_sat":1,"exam_count_mock":null,"ebs_count":null,"latest_year":"2021학년도","exam_history":["2021학년도 수능"],"importance":5,"notes":"박지원 『열하일기』 수록. 2021학년도 수능 출제. 평가원 빈출, EBS 단골."},
+  {"title":"조침문","exam_count_sat":null,"exam_count_mock":null,"ebs_count":null,"latest_year":null,"exam_history":[],"importance":3,"notes":"유씨부인 제문. 내방수필·여성 한글 산문 대표. 교과서·EBS 수록. 평가원 출제 기록 제한적."},
+  {"title":"규중칠우쟁론기","exam_count_sat":null,"exam_count_mock":null,"ebs_count":null,"latest_year":null,"exam_history":[],"importance":3,"notes":"작자미상 내간체 수필·우화. 의인화 기법 학습 단골. EBS 수록 빈도 중간."},
+  {"title":"동명일기","exam_count_sat":null,"exam_count_mock":null,"ebs_count":null,"latest_year":null,"exam_history":[],"importance":3,"notes":"의유당 기행수필. 내방수필 대표작. EBS 간헐 수록, 평가원 직접 출제는 드묾."},
+  {"title":"한중록","exam_count_sat":null,"exam_count_mock":null,"ebs_count":null,"latest_year":null,"exam_history":[],"importance":3,"notes":"혜경궁 홍씨 궁정수필·회고록. 3대 궁정문학. 문학사·역사 학습 중심, 평가원 직접 출제 기록 제한적."}
+]

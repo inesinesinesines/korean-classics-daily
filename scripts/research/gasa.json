@@ -1,0 +1,15 @@
+[
+  {"title":"상춘곡","exam_count_sat":2,"exam_count_mock":null,"ebs_count":null,"latest_year":"2011학년도","exam_history":["2002학년도 수능","2011학년도 수능"],"importance":4,"notes":"최초의 사대부 가사, 은일 가사의 효시, 문학사 필수"},
+  {"title":"관동별곡","exam_count_sat":2,"exam_count_mock":2,"ebs_count":null,"latest_year":"2021학년도","exam_history":["1999학년도 수능","2015학년도 수능 B형","2010학년도 6월 모의평가","2021학년도 6월 모의평가"],"importance":5,"notes":"정철 가사 대표작, 평가원 수능/모의평가 4회 이상 출제되는 최빈출 고전 작품"},
+  {"title":"사미인곡","exam_count_sat":2,"exam_count_mock":null,"ebs_count":null,"latest_year":"2021학년도","exam_history":["1998학년도 수능","2021학년도 수능"],"importance":5,"notes":"정철 연군가사 대표작, 충신연주지사의 전형, EBS 연계 빈출"},
+  {"title":"속미인곡","exam_count_sat":1,"exam_count_mock":null,"ebs_count":7,"latest_year":"2006학년도","exam_history":["2006학년도 수능"],"importance":5,"notes":"사미인곡의 속편, 대화체 가사의 백미, 김만중 극찬, EBS 수능특강·수능완성 7회 이상 수록"},
+  {"title":"성산별곡","exam_count_sat":1,"exam_count_mock":1,"ebs_count":null,"latest_year":"2024학년도","exam_history":["2013학년도 수능","2024학년도 9월 모의평가"],"importance":4,"notes":"정철의 은거 가사, 자연친화 주제, 평가원 재출제"},
+  {"title":"누항사","exam_count_sat":null,"exam_count_mock":1,"ebs_count":null,"latest_year":null,"exam_history":["2009학년도 6월 모의평가(추정)"],"importance":4,"notes":"조선 후기 사대부 가사의 전환점(안빈낙도→궁핍), 수능 필수 빈출 가사로 분류"},
+  {"title":"선상탄","exam_count_sat":null,"exam_count_mock":null,"ebs_count":null,"latest_year":null,"exam_history":[],"importance":3,"notes":"박인로의 임란 후 우국가사, EBS 수능특강 연계 단골 작품(2020 등)"},
+  {"title":"규원가","exam_count_sat":null,"exam_count_mock":1,"ebs_count":null,"latest_year":"2022학년도","exam_history":["2022학년도 9월 모의평가"],"importance":4,"notes":"현존 최고(最古) 여류 가사, 규방가사 대표작, 평가원 모평 기출"},
+  {"title":"연행가","exam_count_sat":1,"exam_count_mock":null,"ebs_count":null,"latest_year":"2017학년도","exam_history":["2017학년도 수능"],"importance":4,"notes":"조선 후기 장편 기행가사(3,924구), 2017 수능 마지막 지문으로 출제"},
+  {"title":"일동장유가","exam_count_sat":1,"exam_count_mock":null,"ebs_count":null,"latest_year":"2019학년도","exam_history":["2019학년도 수능"],"importance":4,"notes":"조선 후기 기행가사, 일본 통신사 수행기, 2019 수능 고전시가 지문"},
+  {"title":"농가월령가","exam_count_sat":null,"exam_count_mock":null,"ebs_count":null,"latest_year":null,"exam_history":[],"importance":2,"notes":"월령체 교술가사의 대표작, 2025 EBS 수능특강 수록, 평가원 직접 출제 기록은 확인되지 않음"},
+  {"title":"만언사","exam_count_sat":null,"exam_count_mock":null,"ebs_count":null,"latest_year":null,"exam_history":[],"importance":2,"notes":"조선 후기 장편 유배가사, 2015 EBS 수능특강 B형 수록, 평가원 직접 출제 기록은 확인되지 않음"},
+  {"title":"용부가","exam_count_sat":null,"exam_count_mock":null,"ebs_count":null,"latest_year":null,"exam_history":[],"importance":2,"notes":"서민가사·풍자가사 대표작, 2025/2026 EBS 수능특강 수록, 평가원 직접 출제 기록은 확인되지 않음"}
+]
