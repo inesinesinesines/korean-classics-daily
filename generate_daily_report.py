@@ -195,7 +195,6 @@ def call_claude(prompt: str) -> dict:
     msg = client.messages.create(
         model=CLAUDE_MODEL,
         max_tokens=2800,
-        temperature=0.2,
         messages=[{"role": "user", "content": prompt}],
     )
     content = extract_text(msg)
