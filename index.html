@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="ko" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Korean Classics Daily — 수능 한국 고전 일일 리포트</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    :root,[data-theme="light"]{--bg:#f6f3ec;--surface:#fbf9f3;--surface2:#fffcf4;--border:#d9cfba;--text:#2a241a;--muted:#6e6454;--primary:#8b2a1f;--accent:#6b4226;--inverse:#fbf9f3;--radius:14px;--shadow:0 8px 24px rgba(60,40,20,.10);--font-body:'Noto Sans KR',system-ui,sans-serif;--font-display:'Nanum Myeongjo',Georgia,serif}
+    [data-theme="dark"]{--bg:#1a1714;--surface:#211d19;--surface2:#26221d;--border:#3d362e;--text:#ede7dc;--muted:#b0a898;--primary:#d6766b;--accent:#b58966;--inverse:#1a1714}
+    *{box-sizing:border-box}body{margin:0;font-family:var(--font-body);background:var(--bg);color:var(--text);line-height:1.7}
+    .wrap{max-width:1180px;margin:0 auto;padding:24px}
+    .top{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-bottom:24px;flex-wrap:wrap}
+    .btn{border:1px solid var(--border);background:var(--surface);color:var(--text);padding:10px 16px;border-radius:999px;cursor:pointer;font-family:inherit;font-size:14px}
+    .btn.primary{background:var(--primary);color:var(--inverse);border-color:var(--primary)}
+    .btn:hover{border-color:var(--primary)}
+    .hero,.grid{display:grid;grid-template-columns:1.15fr .85fr;gap:24px}
+    .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .pad{padding:28px}
+    .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin-bottom:4px}
+    h1,h2,h3{font-family:var(--font-display);line-height:1.2;margin:0 0 12px;font-weight:700}
+    h1{font-size:34px}
+    h2{font-size:26px}
+    h3{font-size:17px;margin-bottom:10px}
+    p{color:var(--text);margin:0 0 8px}
+    .muted{color:var(--muted)}
+    .chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:16px}
+    .chip{background:rgba(139,42,31,.10);color:var(--primary);padding:5px 12px;border-radius:999px;font-size:12px;font-weight:600}
+    .block{background:var(--surface2);border:1px solid var(--border);border-radius:12px;padding:18px;margin-bottom:14px}
+    ul{margin:6px 0 0;padding-left:22px}
+    ul li{margin-bottom:6px}
+    .interpretation{border-left:3px solid var(--accent);padding:14px 18px;background:var(--surface2);margin-bottom:14px;border-radius:0 10px 10px 0}
+    .interpretation h3{color:var(--primary);margin-bottom:8px}
+    .quote{font-family:var(--font-display);background:rgba(107,66,38,.06);border-left:3px solid var(--accent);padding:14px 18px;margin:10px 0 4px;font-size:15px;border-radius:0 10px 10px 0;white-space:pre-wrap;line-height:1.9}
+    .quote-source{font-size:12px;color:var(--muted);margin-top:4px;display:block}
+    .qa textarea{width:100%;min-height:110px;padding:14px;border:1px solid var(--border);border-radius:12px;background:var(--surface2);color:var(--text);font-family:inherit;font-size:14px;line-height:1.6;resize:vertical}
+    .rec{display:grid;gap:10px}
+    .rec-item{padding:14px;border:1px solid var(--border);border-radius:12px;background:var(--surface2);cursor:pointer;transition:transform .12s ease,border-color .12s ease}
+    .rec-item:hover{transform:translateY(-1px);border-color:var(--primary)}
+    .rec-item strong{display:block;margin-bottom:4px}
+    .small{font-size:13px;color:var(--muted)}
+    .meta-line{font-size:15px;color:var(--muted);margin-bottom:16px}
+    .title-hero{font-size:38px;margin-bottom:8px;color:var(--primary)}
+    @media(max-width:900px){.hero,.grid{grid-template-columns:1fr}.pad{padding:20px}h1{font-size:28px}.title-hero{font-size:30px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div>
+        <div class="eyebrow">수능·EBS 수록 한국 고전 + Notion 아카이브</div>
+        <h1>Korean Classics Daily</h1>
+        <p class="muted">매일 한국 고전 한 편을 골라 전체 내용 요약, 문학사적 의의, 다양한 해석을 원문 인용과 함께 전달합니다.</p>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+        <button class="btn" id="prevBtn">◀ 이전</button>
+        <span id="navDate" style="font-weight:600;min-width:110px;text-align:center"></span>
+        <button class="btn" id="nextBtn">다음 ▶</button>
+        <button class="btn" id="todayBtn">오늘</button>
+        <button class="btn" id="themeBtn">테마</button>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="card pad">
+        <div class="eyebrow" id="dateText">Loading…</div>
+        <h2 class="title-hero" id="titleText">오늘의 작품을 불러오는 중</h2>
+        <div class="meta-line" id="metaText"></div>
+        <div class="chips">
+          <span class="chip" id="categoryChip"></span>
+          <span class="chip" id="subgenreChip"></span>
+          <span class="chip" id="periodChip"></span>
+          <span class="chip" id="sourceRankChip"></span>
+        </div>
+
+        <div class="block"><h3>한 줄 요약</h3><p id="oneLine"></p></div>
+        <div class="block"><h3>전체 내용 요약</h3><ul id="summaryList"></ul></div>
+        <div class="block"><h3>문학사적 의의와 특징</h3><p id="literarySignificance"></p></div>
+
+        <h2 style="margin-top:24px">다양한 해석</h2>
+        <div id="interpretations"></div>
+
+        <div class="block" style="margin-top:10px"><h3>핵심 키워드</h3><div class="chips" id="keywords"></div></div>
+        <div class="block"><h3>오늘의 질문</h3><p id="discussionQuestion"></p></div>
+        <div class="block"><h3>출제·수록 근거</h3><p id="sourceBasis" class="muted"></p></div>
+      </div>
+
+      <div class="card pad qa">
+        <h2>Perplexity로 더 깊이</h2>
+        <p class="muted">오늘의 작품을 바탕으로 이어서 질문할 수 있습니다.</p>
+        <textarea id="questionBox" placeholder="예: 이 작품의 주제와 현대적 의미를 설명해줘"></textarea>
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin:14px 0">
+          <button class="btn primary" id="askBtn">Perplexity 새 탭으로 열기</button>
+          <button class="btn" id="fillBtn">추천 질문 넣기</button>
+        </div>
+
+        <h2 style="margin-top:20px">다음에 읽을 작품</h2>
+        <p class="muted">같은 갈래·시대·주제로 이어지는 한국 고전을 제안합니다.</p>
+        <div class="rec" id="recommendations"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const byId = id => document.getElementById(id);
+    const escapeHtml = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+    function fmtDate(d){
+      const y = d.getFullYear(), m = String(d.getMonth()+1).padStart(2,'0'), day = String(d.getDate()).padStart(2,'0');
+      return `${y}-${m}-${day}`;
+    }
+    function shiftDate(iso, days){
+      const [y,m,d] = iso.split('-').map(Number);
+      return fmtDate(new Date(y, m-1, d+days));
+    }
+
+    let currentDate = null;
+    let todayDate = null;
+
+    function renderInterpretations(items){
+      byId('interpretations').innerHTML = (items || []).map(it => {
+        const vp = escapeHtml(it.viewpoint || '');
+        const exp = escapeHtml(it.explanation || '');
+        const quote = it.original_quote ? `
+          <div class="quote">${escapeHtml(it.original_quote)}</div>
+          <span class="quote-source">— ${escapeHtml(it.quote_source || '')}</span>` : '';
+        return `<div class="interpretation"><h3>${vp}</h3><p>${exp}</p>${quote}</div>`;
+      }).join('') || '<p class="muted">해석 데이터가 아직 없습니다.</p>';
+    }
+
+    function renderRecommendations(recs){
+      byId('recommendations').innerHTML = (recs || []).map(r => `
+        <div class="rec-item" tabindex="0" data-title="${escapeHtml(r.title)}" data-author="${escapeHtml(r.author)}">
+          <strong>${escapeHtml(r.title)}</strong>
+          <div class="small">${escapeHtml(r.author)}</div>
+          <div class="small">${escapeHtml(r.reason || '')}</div>
+        </div>
+      `).join('');
+      document.querySelectorAll('#recommendations .rec-item').forEach(el => {
+        const open = () => {
+          const title = el.getAttribute('data-title');
+          const author = el.getAttribute('data-author');
+          const q = encodeURIComponent(`${author}의 『${title}』을 문학사적 의의와 해석 중심으로 설명해줘.`);
+          window.open(`https://www.perplexity.ai/search/new?q=${q}`, '_blank', 'noopener,noreferrer');
+        };
+        el.addEventListener('click', open);
+        el.addEventListener('keydown', e => { if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); open(); } });
+      });
+    }
+
+    function render(d){
+      currentDate = d.date;
+      byId('navDate').textContent = d.date;
+      byId('dateText').textContent = `${d.date} · 오늘의 작품 #${d.book_id}`;
+      byId('titleText').textContent = `『${d.title}』`;
+      byId('metaText').textContent = `${d.author} · ${d.category} · ${d.subgenre || ''} · ${d.period || ''}`.replace(/\s·\s\s·\s/g,' · ');
+      byId('categoryChip').textContent = d.category || '';
+      byId('subgenreChip').textContent = d.subgenre || '';
+      byId('periodChip').textContent = d.period || '';
+      byId('sourceRankChip').textContent = `Source Rank ${d.source_rank ?? '-'}`;
+      byId('oneLine').textContent = d.one_line || '';
+      byId('summaryList').innerHTML = (d.summary || []).map(x => `<li>${escapeHtml(x)}</li>`).join('');
+      byId('literarySignificance').textContent = d.literary_significance || '';
+      renderInterpretations(d.interpretations);
+      byId('keywords').innerHTML = (d.keywords || []).map(x => `<span class="chip">${escapeHtml(x)}</span>`).join('');
+      byId('discussionQuestion').textContent = d.discussion_question || '';
+      byId('sourceBasis').textContent = d.source_basis || '';
+      byId('questionBox').value = d.perplexity_followup_prompt || `${d.author}의 『${d.title}』을 설명해줘`;
+      renderRecommendations(d.next_recommendations || []);
+      byId('nextBtn').disabled = !todayDate || currentDate >= todayDate;
+    }
+
+    async function loadDate(dateStr){
+      const res = await fetch(`./data/daily/${dateStr}.json`, {cache:'no-store'});
+      if(!res.ok) throw new Error(`${dateStr} 리포트 없음`);
+      return res.json();
+    }
+    async function loadToday(){
+      const res = await fetch('./data/today.json', {cache:'no-store'});
+      if(!res.ok) throw new Error('today.json load failed');
+      const d = await res.json();
+      todayDate = d.date;
+      render(d);
+    }
+    async function navigate(days){
+      const target = shiftDate(currentDate, days);
+      if(target > todayDate) return;
+      try{ render(await loadDate(target)); }
+      catch{ alert(`${target} 리포트가 없습니다.`); }
+    }
+
+    byId('prevBtn').onclick = () => navigate(-1);
+    byId('nextBtn').onclick = () => navigate(1);
+    byId('todayBtn').onclick = () => loadToday();
+    byId('themeBtn').onclick = () => {
+      const cur = document.documentElement.getAttribute('data-theme') || 'light';
+      const nxt = cur === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', nxt);
+      localStorage.setItem('kcd-theme', nxt);
+    };
+    byId('askBtn').onclick = () => {
+      const q = byId('questionBox').value.trim();
+      if(!q) return;
+      window.open(`https://www.perplexity.ai/search/new?q=${encodeURIComponent(q)}`, '_blank', 'noopener,noreferrer');
+    };
+    byId('fillBtn').onclick = () => {
+      byId('questionBox').value = `오늘 소개된 한국 고전 작품의 문학사적 의의와 주요 해석을 원문 인용과 함께 정리해줘.`;
+    };
+
+    const savedTheme = localStorage.getItem('kcd-theme');
+    if(savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
+    loadToday().catch(err => {
+      console.error(err);
+      byId('titleText').textContent = '아직 오늘의 리포트가 준비되지 않았습니다';
+      byId('dateText').textContent = '-';
+    });
+  </script>
+</body>
+</html>

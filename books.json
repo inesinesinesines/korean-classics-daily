@@ -1,0 +1,802 @@
+[
+  {
+    "id": 1,
+    "author": "김시습",
+    "title": "만복사저포기",
+    "category": "고전소설",
+    "subgenre": "전기소설",
+    "period": "조선전기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 수능특강 다수 수록 (금오신화)"
+  },
+  {
+    "id": 2,
+    "author": "김시습",
+    "title": "이생규장전",
+    "category": "고전소설",
+    "subgenre": "전기소설",
+    "period": "조선전기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 수능특강 다수 수록 (금오신화)"
+  },
+  {
+    "id": 3,
+    "author": "허균",
+    "title": "홍길동전",
+    "category": "고전소설",
+    "subgenre": "영웅소설·사회소설",
+    "period": "조선중기",
+    "source_rank": 1,
+    "source_basis": "최초의 국문소설, 수능·EBS 반복 출제"
+  },
+  {
+    "id": 4,
+    "author": "김만중",
+    "title": "구운몽",
+    "category": "고전소설",
+    "subgenre": "몽자류소설",
+    "period": "조선후기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 다수 수록"
+  },
+  {
+    "id": 5,
+    "author": "김만중",
+    "title": "사씨남정기",
+    "category": "고전소설",
+    "subgenre": "가정소설",
+    "period": "조선후기",
+    "source_rank": 1,
+    "source_basis": "수능·EBS 수능특강 반복 수록"
+  },
+  {
+    "id": 6,
+    "author": "박지원",
+    "title": "양반전",
+    "category": "고전소설",
+    "subgenre": "한문단편",
+    "period": "조선후기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가 단골 출제 한문단편"
+  },
+  {
+    "id": 7,
+    "author": "박지원",
+    "title": "허생전",
+    "category": "고전소설",
+    "subgenre": "한문단편",
+    "period": "조선후기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 수록"
+  },
+  {
+    "id": 8,
+    "author": "박지원",
+    "title": "호질",
+    "category": "고전소설",
+    "subgenre": "한문단편",
+    "period": "조선후기",
+    "source_rank": 1,
+    "source_basis": "수능·EBS 수능특강 출제"
+  },
+  {
+    "id": 9,
+    "author": "박지원",
+    "title": "광문자전",
+    "category": "고전소설",
+    "subgenre": "한문단편",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "EBS 연계교재 반복 수록"
+  },
+  {
+    "id": 10,
+    "author": "박지원",
+    "title": "예덕선생전",
+    "category": "고전소설",
+    "subgenre": "한문단편",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "EBS 수능특강·완성 수록"
+  },
+  {
+    "id": 11,
+    "author": "작자미상",
+    "title": "춘향전",
+    "category": "고전소설",
+    "subgenre": "판소리계소설",
+    "period": "조선후기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가 최다 출제 판소리계소설"
+  },
+  {
+    "id": 12,
+    "author": "작자미상",
+    "title": "심청전",
+    "category": "고전소설",
+    "subgenre": "판소리계소설",
+    "period": "조선후기",
+    "source_rank": 1,
+    "source_basis": "수능·EBS 다수 수록"
+  },
+  {
+    "id": 13,
+    "author": "작자미상",
+    "title": "흥부전",
+    "category": "고전소설",
+    "subgenre": "판소리계소설",
+    "period": "조선후기",
+    "source_rank": 1,
+    "source_basis": "수능·EBS 다수 수록"
+  },
+  {
+    "id": 14,
+    "author": "작자미상",
+    "title": "토끼전",
+    "category": "고전소설",
+    "subgenre": "판소리계소설·우화소설",
+    "period": "조선후기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제 (별주부전)"
+  },
+  {
+    "id": 15,
+    "author": "작자미상",
+    "title": "옹고집전",
+    "category": "고전소설",
+    "subgenre": "판소리계소설",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수능특강 수록"
+  },
+  {
+    "id": 16,
+    "author": "작자미상",
+    "title": "배비장전",
+    "category": "고전소설",
+    "subgenre": "판소리계소설·풍자소설",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·모의평가·EBS 수록"
+  },
+  {
+    "id": 17,
+    "author": "작자미상",
+    "title": "장끼전",
+    "category": "고전소설",
+    "subgenre": "우화소설",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "EBS 수능특강 수록"
+  },
+  {
+    "id": 18,
+    "author": "작자미상",
+    "title": "유충렬전",
+    "category": "고전소설",
+    "subgenre": "영웅·군담소설",
+    "period": "조선후기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 19,
+    "author": "작자미상",
+    "title": "조웅전",
+    "category": "고전소설",
+    "subgenre": "영웅·군담소설",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 20,
+    "author": "작자미상",
+    "title": "박씨전",
+    "category": "고전소설",
+    "subgenre": "역사·군담소설",
+    "period": "조선후기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 21,
+    "author": "작자미상",
+    "title": "임경업전",
+    "category": "고전소설",
+    "subgenre": "역사·군담소설",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "EBS 수능특강·완성 수록"
+  },
+  {
+    "id": 22,
+    "author": "작자미상",
+    "title": "임진록",
+    "category": "고전소설",
+    "subgenre": "역사소설",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "EBS 연계교재 수록"
+  },
+  {
+    "id": 23,
+    "author": "작자미상",
+    "title": "숙향전",
+    "category": "고전소설",
+    "subgenre": "애정·영웅소설",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 24,
+    "author": "작자미상",
+    "title": "숙영낭자전",
+    "category": "고전소설",
+    "subgenre": "애정소설",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·모의평가·EBS 수록"
+  },
+  {
+    "id": 25,
+    "author": "작자미상",
+    "title": "운영전",
+    "category": "고전소설",
+    "subgenre": "몽유록·애정소설",
+    "period": "조선중기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가 출제 빈출 몽유록"
+  },
+  {
+    "id": 26,
+    "author": "조위한",
+    "title": "최척전",
+    "category": "고전소설",
+    "subgenre": "역사·가정소설",
+    "period": "조선중기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 27,
+    "author": "작자미상",
+    "title": "창선감의록",
+    "category": "고전소설",
+    "subgenre": "가정소설",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "EBS 수능특강 수록"
+  },
+  {
+    "id": 28,
+    "author": "작자미상",
+    "title": "채봉감별곡",
+    "category": "고전소설",
+    "subgenre": "애정소설",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 29,
+    "author": "작자미상",
+    "title": "이춘풍전",
+    "category": "고전소설",
+    "subgenre": "풍자소설",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 30,
+    "author": "작자미상",
+    "title": "심생전",
+    "category": "고전소설",
+    "subgenre": "한문단편·애정소설",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "이옥, 수능·EBS 수록"
+  },
+  {
+    "id": 31,
+    "author": "월명사",
+    "title": "제망매가",
+    "category": "고전시가",
+    "subgenre": "향가(10구체)",
+    "period": "통일신라",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가 최다 출제 향가"
+  },
+  {
+    "id": 32,
+    "author": "충담사",
+    "title": "찬기파랑가",
+    "category": "고전시가",
+    "subgenre": "향가(10구체)",
+    "period": "통일신라",
+    "source_rank": 1,
+    "source_basis": "수능·EBS 반복 출제"
+  },
+  {
+    "id": 33,
+    "author": "서동",
+    "title": "서동요",
+    "category": "고전시가",
+    "subgenre": "향가(4구체)",
+    "period": "신라",
+    "source_rank": 2,
+    "source_basis": "EBS 수능특강 수록"
+  },
+  {
+    "id": 34,
+    "author": "충담사",
+    "title": "안민가",
+    "category": "고전시가",
+    "subgenre": "향가(10구체)",
+    "period": "통일신라",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 35,
+    "author": "득오",
+    "title": "모죽지랑가",
+    "category": "고전시가",
+    "subgenre": "향가(8구체)",
+    "period": "통일신라",
+    "source_rank": 2,
+    "source_basis": "EBS 수능특강 수록"
+  },
+  {
+    "id": 36,
+    "author": "작자미상",
+    "title": "청산별곡",
+    "category": "고전시가",
+    "subgenre": "고려가요",
+    "period": "고려",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 최다 출제"
+  },
+  {
+    "id": 37,
+    "author": "작자미상",
+    "title": "가시리",
+    "category": "고전시가",
+    "subgenre": "고려가요",
+    "period": "고려",
+    "source_rank": 1,
+    "source_basis": "수능·EBS 반복 출제"
+  },
+  {
+    "id": 38,
+    "author": "작자미상",
+    "title": "동동",
+    "category": "고전시가",
+    "subgenre": "고려가요",
+    "period": "고려",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록 (월령체)"
+  },
+  {
+    "id": 39,
+    "author": "작자미상",
+    "title": "서경별곡",
+    "category": "고전시가",
+    "subgenre": "고려가요",
+    "period": "고려",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 40,
+    "author": "작자미상",
+    "title": "정석가",
+    "category": "고전시가",
+    "subgenre": "고려가요",
+    "period": "고려",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 41,
+    "author": "작자미상",
+    "title": "정읍사",
+    "category": "고전시가",
+    "subgenre": "백제가요",
+    "period": "백제",
+    "source_rank": 2,
+    "source_basis": "현전 유일 백제가요, 수능·EBS 수록"
+  },
+  {
+    "id": 42,
+    "author": "이황",
+    "title": "도산십이곡",
+    "category": "고전시가",
+    "subgenre": "연시조",
+    "period": "조선중기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 43,
+    "author": "이이",
+    "title": "고산구곡가",
+    "category": "고전시가",
+    "subgenre": "연시조",
+    "period": "조선중기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 44,
+    "author": "정철",
+    "title": "훈민가",
+    "category": "고전시가",
+    "subgenre": "연시조(교훈)",
+    "period": "조선중기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 45,
+    "author": "윤선도",
+    "title": "오우가",
+    "category": "고전시가",
+    "subgenre": "연시조",
+    "period": "조선중기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 46,
+    "author": "윤선도",
+    "title": "어부사시사",
+    "category": "고전시가",
+    "subgenre": "연시조",
+    "period": "조선중기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 47,
+    "author": "윤선도",
+    "title": "만흥",
+    "category": "고전시가",
+    "subgenre": "연시조",
+    "period": "조선중기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가 반복 출제"
+  },
+  {
+    "id": 48,
+    "author": "맹사성",
+    "title": "강호사시가",
+    "category": "고전시가",
+    "subgenre": "연시조",
+    "period": "조선전기",
+    "source_rank": 1,
+    "source_basis": "수능·EBS 최초의 연시조로 반복 출제"
+  },
+  {
+    "id": 49,
+    "author": "황진이",
+    "title": "황진이 시조",
+    "category": "고전시가",
+    "subgenre": "평시조",
+    "period": "조선중기",
+    "source_rank": 2,
+    "source_basis": "‘동짓달 기나긴 밤을’ 등 수능·EBS 수록"
+  },
+  {
+    "id": 50,
+    "author": "이방원·정몽주",
+    "title": "하여가·단심가",
+    "category": "고전시가",
+    "subgenre": "평시조",
+    "period": "고려말·조선초",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록 (대구 구성)"
+  },
+  {
+    "id": 51,
+    "author": "안민영",
+    "title": "매화사",
+    "category": "고전시가",
+    "subgenre": "연시조",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 52,
+    "author": "주세붕",
+    "title": "오륜가",
+    "category": "고전시가",
+    "subgenre": "연시조(교훈)",
+    "period": "조선중기",
+    "source_rank": 2,
+    "source_basis": "EBS 수능특강 수록"
+  },
+  {
+    "id": 53,
+    "author": "작자미상",
+    "title": "사설시조 모음",
+    "category": "고전시가",
+    "subgenre": "사설시조",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "‘댁들에’·‘개를 여남은이나’ 등 수능·EBS 수록"
+  },
+  {
+    "id": 54,
+    "author": "정지상",
+    "title": "송인",
+    "category": "고전시가",
+    "subgenre": "한시(7언절구)",
+    "period": "고려",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 55,
+    "author": "최치원",
+    "title": "추야우중",
+    "category": "고전시가",
+    "subgenre": "한시(5언절구)",
+    "period": "통일신라",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 56,
+    "author": "정약용",
+    "title": "보리타작(타맥행)",
+    "category": "고전시가",
+    "subgenre": "한시(7언고시)",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록 (실학·사실주의 한시)"
+  },
+  {
+    "id": 57,
+    "author": "이규보",
+    "title": "동명왕편",
+    "category": "고전시가",
+    "subgenre": "영웅서사한시",
+    "period": "고려",
+    "source_rank": 2,
+    "source_basis": "EBS 수능특강 수록"
+  },
+  {
+    "id": 58,
+    "author": "정극인",
+    "title": "상춘곡",
+    "category": "가사",
+    "subgenre": "양반가사·강호가사",
+    "period": "조선전기",
+    "source_rank": 1,
+    "source_basis": "최초의 가사, 수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 59,
+    "author": "정철",
+    "title": "관동별곡",
+    "category": "가사",
+    "subgenre": "기행가사",
+    "period": "조선중기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 60,
+    "author": "정철",
+    "title": "사미인곡",
+    "category": "가사",
+    "subgenre": "연군가사",
+    "period": "조선중기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 61,
+    "author": "정철",
+    "title": "속미인곡",
+    "category": "가사",
+    "subgenre": "연군가사",
+    "period": "조선중기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 62,
+    "author": "정철",
+    "title": "성산별곡",
+    "category": "가사",
+    "subgenre": "은일가사",
+    "period": "조선중기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 63,
+    "author": "박인로",
+    "title": "누항사",
+    "category": "가사",
+    "subgenre": "은일가사",
+    "period": "조선중기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 64,
+    "author": "박인로",
+    "title": "선상탄",
+    "category": "가사",
+    "subgenre": "전쟁가사",
+    "period": "조선중기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 65,
+    "author": "허난설헌",
+    "title": "규원가",
+    "category": "가사",
+    "subgenre": "내방가사·규방가사",
+    "period": "조선중기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 66,
+    "author": "홍순학",
+    "title": "연행가",
+    "category": "가사",
+    "subgenre": "기행가사",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 67,
+    "author": "김인겸",
+    "title": "일동장유가",
+    "category": "가사",
+    "subgenre": "기행가사",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "EBS 수능특강 수록"
+  },
+  {
+    "id": 68,
+    "author": "정학유",
+    "title": "농가월령가",
+    "category": "가사",
+    "subgenre": "월령체가사",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 69,
+    "author": "안조환",
+    "title": "만언사",
+    "category": "가사",
+    "subgenre": "유배가사",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "EBS 수능특강 수록"
+  },
+  {
+    "id": 70,
+    "author": "작자미상",
+    "title": "용부가",
+    "category": "가사",
+    "subgenre": "내방가사·풍자가사",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "EBS 수능특강 수록"
+  },
+  {
+    "id": 71,
+    "author": "이규보",
+    "title": "경설",
+    "category": "고전수필",
+    "subgenre": "설(說)",
+    "period": "고려",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 72,
+    "author": "이규보",
+    "title": "슬견설",
+    "category": "고전수필",
+    "subgenre": "설(說)",
+    "period": "고려",
+    "source_rank": 1,
+    "source_basis": "수능·EBS 반복 출제"
+  },
+  {
+    "id": 73,
+    "author": "이규보",
+    "title": "이옥설",
+    "category": "고전수필",
+    "subgenre": "설(說)",
+    "period": "고려",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 74,
+    "author": "권근",
+    "title": "주옹설",
+    "category": "고전수필",
+    "subgenre": "설(說)",
+    "period": "조선전기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 75,
+    "author": "이곡",
+    "title": "차마설",
+    "category": "고전수필",
+    "subgenre": "설(說)",
+    "period": "고려",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제"
+  },
+  {
+    "id": 76,
+    "author": "박지원",
+    "title": "일야구도하기",
+    "category": "고전수필",
+    "subgenre": "기(記)·기행문",
+    "period": "조선후기",
+    "source_rank": 1,
+    "source_basis": "수능·모의평가·EBS 반복 출제 (열하일기)"
+  },
+  {
+    "id": 77,
+    "author": "유씨부인",
+    "title": "조침문",
+    "category": "고전수필",
+    "subgenre": "제문",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 78,
+    "author": "작자미상",
+    "title": "규중칠우쟁론기",
+    "category": "고전수필",
+    "subgenre": "내간체수필·우화",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 79,
+    "author": "의유당",
+    "title": "동명일기",
+    "category": "고전수필",
+    "subgenre": "기행문",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "수능·EBS 수록"
+  },
+  {
+    "id": 80,
+    "author": "혜경궁 홍씨",
+    "title": "한중록",
+    "category": "고전수필",
+    "subgenre": "궁정수필·회고록",
+    "period": "조선후기",
+    "source_rank": 2,
+    "source_basis": "EBS 수능특강 수록"
+  }
+]

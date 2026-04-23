@@ -1,0 +1,14 @@
+/*.env
+.env
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Local Claude Code config
+.claude/
+
+# Never commit credentials
+githubkey.txt
+*.token
+*.pat
