@@ -1,0 +1,66 @@
+{
+  "date": "2026-04-23",
+  "book_id": 80,
+  "author": "혜경궁 홍씨",
+  "title": "한중록",
+  "category": "고전수필",
+  "subgenre": "궁정수필·회고록",
+  "period": "조선후기",
+  "source_rank": 2,
+  "source_basis": "EBS 수능특강 수록",
+  "reading_mode": "ranked",
+  "one_line": "혜경궁 홍씨의 『한중록』을(를) 오늘의 한국 고전으로 읽는 일일 리포트입니다.",
+  "summary": [
+    "이 작품은 조선후기 시기의 궁정수필·회고록 계열에 속합니다.",
+    "장르 특성과 구조, 화자의 태도를 중심으로 읽는 것이 좋습니다.",
+    "핵심 갈등과 주제의식을 작품 전체의 흐름에서 파악해 보세요.",
+    "문학사적 위치와 당대 수용사를 함께 살펴보면 이해가 깊어집니다.",
+    "수능·EBS 연계에서 반복 출제되는 맥락을 고려해 읽어 보세요.",
+    "오늘의 리포트는 다양한 해석 관점까지 간단히 연결해 줍니다."
+  ],
+  "literary_significance": "자동 생성 실패 시 임시 요약입니다. 장르적 전형성, 형식적 특징, 문학사적 계승 관계에 주목해 주세요.",
+  "interpretations": [
+    {
+      "viewpoint": "주제론적 해석",
+      "explanation": "작품의 핵심 주제와 시대적 문제의식을 중심에 두는 접근입니다.",
+      "original_quote": "",
+      "quote_source": ""
+    },
+    {
+      "viewpoint": "형식·구조 분석",
+      "explanation": "갈래의 관습과 구성적 장치가 의미를 어떻게 형성하는지 살피는 접근입니다.",
+      "original_quote": "",
+      "quote_source": ""
+    }
+  ],
+  "keywords": [
+    "고전수필",
+    "궁정수필·회고록",
+    "조선후기",
+    "주제",
+    "형식"
+  ],
+  "discussion_question": "『한중록』의 핵심 문제의식을 오늘의 관점에서 재해석하면 어떤 논점이 생길까?",
+  "perplexity_followup_prompt": "혜경궁 홍씨의 『한중록』의 문학사적 의의와 다양한 해석을 정리해줘.",
+  "next_recommendations": [
+    {
+      "title": "만복사저포기",
+      "author": "김시습",
+      "reason": "수능·모의평가·EBS 연계에서 최다 출제된 핵심 작품입니다.",
+      "external": false
+    },
+    {
+      "title": "이생규장전",
+      "author": "김시습",
+      "reason": "수능·모의평가·EBS 연계에서 최다 출제된 핵심 작품입니다.",
+      "external": false
+    },
+    {
+      "title": "홍길동전",
+      "author": "허균",
+      "reason": "수능·모의평가·EBS 연계에서 최다 출제된 핵심 작품입니다.",
+      "external": false
+    }
+  ],
+  "source_note": "수능 기출 + EBS 연계 한국 고전 일일 리포트"
+}
